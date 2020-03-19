@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "New Dev Blog"
+date: 2020-03-19
 ---
 
 Welcome to a new devblog about Endless Planet. Here I will record the progress made as the game develops. The idea is for Endless Planet to be a 4 player local co-op game, where you hop between different planets fighting with or against each other.
