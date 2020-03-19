@@ -7,20 +7,21 @@ a, body, div, h1, h2, h3, h4, h5, h6, header, html, nav, span, strong {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* Footer */
-#social .message {
+footer .message {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 0.8em;
 	margin: 0 0 0.75em 0;
 	padding: 0;
 }
 
-#social .message a {
+footer .message a {
 	color: rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 }
 
-#social .message a:hover {
+footer .message a:hover {
 	color: #FFF;
 }
 
@@ -35,7 +36,7 @@ a, body, div, h1, h2, h3, h4, h5, h6, header, html, nav, span, strong {
     }
 }
 
-#social .footnote {
+footer .footnote {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 1em;
 	margin: 0 0 0.75em 0;
