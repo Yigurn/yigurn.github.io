@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="en">
 		<head>
 			<title>{{ page.title }}</title>
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -21,22 +21,6 @@
 			<div class="container">			
 				{{ content }}			
 			</div>
-<!-- Social -->
-        	<footer id="social">
-            	<div id="icon-wrap">
-					<a href="mailto:Joshua.B.Lewis@outlook.com">email</a>
-                	<a href="https://www.linkedin.com/in/joshua-b-lewis/">Linkedin</a>
-                	<a href="https://www.github.com">Github</a>
-                	<a href="https://vinolent.bandcamp.com/">Bandcamp</a>
-            	</div>
-            	<div class="info">
-                	<div class="message">
-						Website is currently a work in progress, excuse the mess.
-                	</div>
-					<div class="footnote">
-                    	Joshua Lewis <span class="highlight">@2020</span>
-                	</div>
-            	</div>
-        	</footer>
+		{% include footer.html %}
 		</body>
 	</html>
