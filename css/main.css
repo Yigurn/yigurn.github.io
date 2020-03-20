@@ -108,8 +108,8 @@ body {
 
 /* Banner */
 #banner {
-    padding: 4em 0 9em 0;
-    background-image: url(/images/me.jpg);
+    padding: 4em 0 9em 0;	
+    background-image: url(https://yigurn.github.io/yigurn.github.io/images/me.JPG);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
