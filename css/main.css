@@ -86,7 +86,9 @@ body {
 
 .footer .message {
 	border-top: 2px solid #e9781c;
+	margin: -2px auto;
 	width: 80%;
+	position: relative;
 	font-size: 0.8em;
 }
 
