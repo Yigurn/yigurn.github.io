@@ -79,13 +79,14 @@ body {
 
 .footer {
 	background: #656575;
-	color: #858595;
+	color: #9595a5;
 	padding: 0.5em;
 	text-align: center;
-	border-top: 2px solid #e9781c;
 }
 
 .footer .message {
+	border-top: 2px solid #e9781c;
+	width: 80%;
 	font-size: 0.8em;
 }
 
