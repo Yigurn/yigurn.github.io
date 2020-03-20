@@ -13,7 +13,7 @@ body {
 }
 
 /* Header */
-header {
+.header {
 	top: 0;
 	background: #656575;
 	color: #fff;
@@ -25,13 +25,13 @@ header {
 	z-index: 10001;
 }
 
-header .inner {
+.header .inner {
 	margin: 0 auto;
 	width: 80%;
 	position: relative;
 }
 
-header .logo {
+.header .logo {
 	display: inline-block;
 	font-weight: 400;
 	height: inherit;
@@ -44,12 +44,12 @@ header .logo {
 	font-size: 1em;
 }
 
-header .logo strong {
+.header .logo strong {
 	color: #e9781c;
 	font-weight: 600;
 }
 
-header a {
+.header a {
 	-moz-transition: color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
@@ -61,43 +61,43 @@ header a {
 	font-size: 1em;
 }
 
-header a:hover {
+.header a:hover {
 	color: #e9781c;
 }
 
-header a:last-child {
+.header a:last-child {
 	padding-right: 0;
 }
 
 
 /* Footer */
-footer {
+.footer {
 	background: #656575;
 	padding: 0.5em;
 	background: #555;
 	text-align: center;
 }
 
-footer .footer-links {
+.footer .footer-links {
 	font-size: 2em;
  	padding: 0 0;
 	margin: 0 0 0.75em 0;
 }
 
-footer .message {
+.footer .message {
 	font-size: 0.8em;
 }
 
-footer .footnote {
+.footer .footnote {
 	font-size: 1em;
 }
 
-footer a {
+.footer a {
 	color: #e9781c;
 	text-decoration: underline;
 }
 
-footer a:hover {
+.footer a:hover {
 	color: #ff8e39;
 	text-decoration: none;
 }
