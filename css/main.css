@@ -79,9 +79,10 @@ body {
 
 .footer {
 	background: #656575;
-	color: #757585;
+	color: #858595;
 	padding: 0.5em;
 	text-align: center;
+	border-top: 2px solid #e9781c;
 }
 
 .footer .message {
