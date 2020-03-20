@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 /* Reset */
 a, body, div, h1, h2, h3, h4, h5, h6, header, html, nav, span, strong {
 	margin: 0;
@@ -11,10 +13,8 @@ a, body, div, h1, h2, h3, h4, h5, h6, header, html, nav, span, strong {
 body {
 	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
-
 /* Header */
 .header {
-	top: 0;
 	background: #656575;
 	color: #fff;
 	height: 3.25em;
@@ -26,9 +26,10 @@ body {
 }
 
 .header .inner {
-	margin: 0 auto;
+	margin: -2px auto;
 	width: 80%;
 	position: relative;
+	border-bottom: 2px solid #e9781c;
 }
 
 .header .logo {
@@ -69,19 +70,17 @@ body {
 	padding-right: 0;
 }
 
-
 /* Footer */
-.footer {
-	background: #656575;
-	color: #fff;
-	padding: 0.5em;
-	text-align: center;
-}
-
 .footer .footer-links {
-	font-size: 2em;
+	 font-size: 2em;
  	padding: 0 0;
 	margin: 0 0 0.75em 0;
+}
+
+.footer {
+	background: #656575;
+	padding: 0.5em;
+	text-align: center;
 }
 
 .footer .message {
@@ -102,10 +101,9 @@ body {
 	text-decoration: none;
 }
 
-
 /* Banner */
 #banner {
-    padding: 8em 0 9em 0;
+    padding: 4em 0 9em 0;
     background-image: url(/images/me.jpg);
     background-size: cover;
     background-position: bottom;
@@ -126,10 +124,11 @@ body {
 }
 
 #banner .inner {
-	border-top: 2px solid rgba(233, 120, 28, 1);
+	margin: 0 auto;
 	position: relative;
 	z-index: 10005;
 	padding-top: 4em;
+	width: 80%;
 }
 
 #banner h1 {
@@ -148,26 +147,15 @@ body {
 	font-size: 1.5em;
 }
 
-#banner .icon {
-	color: #6cc091;
-	font-size: 2em;
-}
-
 #banner p {
 	font-size: 1em;
 	color: rgba(255, 255, 255, 0.55);
 	margin-bottom: 1.75em;
     width: 15em;
 }
-
-#banner .flex {
-	-ms-flex-pack: center;
-	-moz-justify-content: center;
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-	text-align: center;
-	margin: 0 auto 4em auto;
+#banner .fas {
+	color: #e9781c;
+	font-size: 2em;
 }
 
 #banner .flex div {
@@ -186,4 +174,34 @@ body {
 
 #banner .flex div p {
 	margin: 0;
+}
+
+#banner .flex {
+	-ms-flex-pack: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto 4em auto;
+}
+
+/* Flex */
+.flex {
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-pack: justify;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
 }
