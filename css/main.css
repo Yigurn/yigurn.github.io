@@ -72,13 +72,14 @@ body {
 
 /* Footer */
 .footer .footer-links {
-	 font-size: 2em;
+	font-size: 2em;
  	padding: 0 0;
 	margin: 0 0 0.75em 0;
 }
 
 .footer {
 	background: #656575;
+	color: #757585;
 	padding: 0.5em;
 	text-align: center;
 }
@@ -204,4 +205,22 @@ body {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	width: 100%;
+}
+
+
+#contact {
+	padding: 0.5em 0;
+	background: #656575;
+	color: #fff;
+	text-align: center;
+}
+
+#contact h3 {
+	color: #FFF;
+	margin-bottom: 0.5em !important;
+}
+
+#contact label {
+	text-align: left;
+	color: #FFF;
 }
