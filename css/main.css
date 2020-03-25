@@ -118,10 +118,6 @@ body {
     position: relative;
 }
 
-section .inner {
-	width:80%;
-}
-
 #banner:before {
 	content: '';
 	background: rgba(75, 75, 93, 0.85);
