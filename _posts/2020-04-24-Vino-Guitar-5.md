@@ -2,6 +2,12 @@
 layout: post
 title: "Vino Guitar #5 - Finally Build!"
 date: 2020-04-24
+categories: tinker music
+tags: guitar music
+image: http://placehold.it/900x300
+lead-text: "This is some text at the start of the articles"
+category: one
+subtitle: Vinolent guitar build process
 ---
 After a few day of sanding the guitar, rounding the corners and filling in small holes it was in a stage where I was ready to paint it. A few coats later, the seems in the wood started to show through, which was a little worrying, but I persevered. I began the black outline, trying to get a slight fade effect around the edge.
 [PHOTO - Vino 24th 19:45] black outline

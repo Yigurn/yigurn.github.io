@@ -1,19 +1,9 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<title>{{ page.title }}</title>
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="stylesheet" type="text/css" href="css/brands.min.css" >
-			<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-			<link rel="stylesheet" type="text/css" href="css/solid.min.css">
-		</head>
-		<body>			
-			{% include header.html %}
-			
-			</section id="banner">
-			<div class="container">			
-				{{ content }}			
-			</div>
-		{% include footer.html %}
-		</body>
-	</html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include sub-header.html %}
+    {{content}}
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Orbits</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/solid.min.css" />
+  <link rel="stylesheet" href="css/brands.min.css" />
+  <link rel="stylesheet" href="css/fontawesome.min.css" />
+</head>
+
+  <body>
+    <header id="header">
+  <div class="inner">
+    <a href="index.html" class="logo"><strong>Joshua</strong> Lewis</a>
+    <nav id="nav">
+      <a  href="/about.html">About</a>
+      <a  href="/webpage2.html">Webpage 2</a>
+      <a  href="/projects.html">Projects</a>
+      <a  href="/blog.html">Blog</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+    <article id="post">
+  <div class="container">
+    <div class="row">
+    <!-- Blog Post Content Column -->
+      <div class="col-lg-8">
+      <!-- Blog Post -->
+      <!-- Title -->
+        <h1>Orbits</h1>
+        <!-- Author -->
+        <p class="lead">
+          by <a href="#"></a>
+        </p>
+        <hr>
+        <!-- Date/Time -->
+        <p><span class="glyphicon glyphicon-time"></span> Posted on March 25, 2020</p>
+        <hr>
+        <!-- Preview Image -->
+        
+        <hr>
+        <!-- Post Content -->
+        
+        <p>Currently the planets rotate on the spot, due to past attempts at orbitting the sun, either using randomly generated paths, or gravational forces. Both versions resulting in issues.
+Using gravity was my initial plan, in order to allow rockets to knock smaller planets off course and collisions to destroy planets at points, however collisions was all I could do. All the time. Getting randomly sized and weighted planets to stay in orbits for even a minute proved very tricky, but open up an idea to a new type of gamemode <b>Gravity Well</b>. 
+[Include a gif of the planets smolly circling and falling into the sun]
+This gamemode would have multiple planets spawning and circling the sun as they slowly get sucked in, cauing players to have to constantly try and move between them refueling and fighting along the way.
+Before starting to implement this version of the game, I wanted to have some planets in constant orbit around the sun and developed a system where orbits are randomly generatedat different distances around the sun. Whilst this works, it makes the game much slower as you are limited as to which planets are near you each time. so I started creating a ring system where planets are roughly the same distance away from the sun and some even share orbits. Unfortunately this causes the planets to collide often where the orbits cross. I developed a script to detect where the planets would collide and forced the orbits to recalculate if the paths were to close together, but with the different speeds and orbits, getting them to all not crash was getting rather complicated. After a lot of thought and attempts I realise it is quite hard to even see the orbits within the game, so decided on a new plan to hard code a few orbits and then place the planets randomly upon them.</p>
+
+        <hr>
+        
+          <span class="previous-link">
+            <a rel="prev" href="/2020/03/19/new-dev-blog.html">Previous article</a>
+          </span>
+        
+        
+          <span class="next-link pull-right">
+            <a rel="next" href="/2020/04/13/Vino-Guitar-3.html">Next article</a>
+          </span>
+        
+        <hr>
+      </div>
+      <!-- Blog Sidebar Widgets Column -->
+      <div class="col-md-4">
+        <!-- Blog Categories Well -->
+        <div class="well">
+          
+        <!-- /.row -->
+        </div>
+      </div>
+    </div>
+  <!-- /.row -->
+  </div>
+</article>
+
+    <footer class="footer">
+  <ul class="footer-links">
+	<a href="mailto:Joshua.B.Lewis@outlook.com"><i class="fas fa-envelope-open-text"></i></a>
+	<a href="https://www.linkedin.com/in/joshua-b-lewis/"><i class="fab fa-linkedin-in"></i></a>
+	<a href="https://www.github.com"><i class="fab fa-github"></i></a>
+	<a href="https://vinolent.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+</ul>
+
+	<div class="info">
+		<div class="message">
+			<p>Website is currently a work in progress, excuse the mess.</p>
+		</div>
+		<div class="footnote">
+            Joshua Lewis<span class="highlight"> @ 2020</span>
+		</div>
+	</div>
+</footer>
+
+  </body>
+</html>

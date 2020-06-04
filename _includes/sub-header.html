@@ -1,0 +1,11 @@
+<header id="header">
+  <div class="inner">
+    <a href="index.html" class="logo"><strong>Joshua</strong> Lewis</a>
+    <nav id="nav">
+      <a {% if page.url == "/about.html" %} class="active"{% endif %} href="/about.html">About</a>
+      <a {% if page.url == "/projects.html" %} class="active"{% endif %} href="/projects.html">Projects</a>
+      <a {% if page.url == "/blog.html" %} class="active"{% endif %} href="/blog.html">Blog</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>

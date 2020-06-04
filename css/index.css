@@ -1,0 +1,468 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+/* Reset */
+a, body, div, h1, h2, h3, h4, h5, h6, header, html, nav, span, strong {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: var(--accent-colour);
+}
+
+:root {
+	--accent-colour: #E9781C;
+	--main-bg-colour: #656575;
+	--white-text-colour: #FFF;
+	--light-text-colour: #9595a5;
+}
+
+/* Header */
+#header {
+	background: var(--main-bg-colour);
+	top: 0;
+	color: var(--white-text-colour);
+	height: 3.25em;
+	line-height: 3.25em;
+	position: relative;
+	text-align: right;
+	width: 100%;
+	z-index: 10001;
+}
+
+#header .inner {
+	margin: -2px auto;
+	width: 80%;
+	position: relative;
+	border-bottom: 2px solid var(--accent-colour);
+}
+
+#header .logo {
+	display: inline-block;
+	font-weight: 400;
+	height: inherit;
+	left: 0;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	font-size: 1em;
+}
+
+#header .logo strong {
+	color: var(--accent-colour);
+	font-weight: 600;
+}
+
+#header a {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	display: inline-block;
+	padding: 0 0.75em;
+	color: inherit;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#header a:hover {
+	color: var(--accent-colour);
+}
+
+a.active {
+	background: var(--accent-colour);
+}
+
+#header a:last-child {
+	padding-right: 0;
+}
+
+/* Footer */
+.footer .footer-links {
+	font-size: 2em;
+ 	padding: 0 0;
+	margin: 0 0 0.75em 0;
+}
+
+.footer {
+	background: var(--main-bg-colour);
+	color: var(--light-text-colour);
+	padding: 0.5em;
+	text-align: center;
+}
+
+.footer .message {
+	border-top: 2px solid var(--accent-colour);
+	margin: -2px auto;
+	width: 80%;
+	position: relative;
+	font-size: 0.8em;
+}
+
+.footer .footnote {
+	font-size: 1em;
+}
+
+.footer a {
+	color: var(--accent-colour);
+	padding: 1em;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #ff8e39;
+	text-decoration: none;
+}
+
+/* Banner */
+#banner {
+    padding: 4em 0 9em 0;
+    /*background-image: url(https://yigurn.github.io/yigurn.github.io/images/me.JPG);*/
+		background-image: url("/images/me.JPG");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+#banner:before {
+	content: '';
+	background: rgba(75, 75, 93, 0.85);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#banner .inner {
+	margin: 0 auto;
+	position: relative;
+	z-index: 10005;
+	padding-top: 4em;
+	width: 80%;
+}
+
+#banner h1 {
+	font-size: 3.5em;
+	font-weight: 400;
+	color: var(--white-text-colour);
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#banner h3 {
+	font-weight: 400;
+	color: var(--white-text-colour);
+	margin: 0;
+	font-size: 1.5em;
+}
+
+#banner p {
+	font-size: 1em;
+	color: var(--white-text-colour);
+	margin-bottom: 1.75em;
+    width: 15em;
+}
+#banner .fas {
+	color: var(--accent-colour);
+	font-size: 2em;
+}
+
+#banner .flex div {
+	border-right: 1px solid var(--accent-colour);
+	border-left: 1px solid var(--accent-colour);
+	padding: 0 4em;
+  margin-bottom: 1em;
+}
+
+#banner .flex div:last-child {
+	border-right: 1px solid var(--accent-colour);
+}
+#banner .flex div:first-child {
+	border-left: 1px solid var(--accent-colour);
+}
+
+#banner .flex div p {
+	margin: 0;
+}
+
+#banner .flex {
+	-ms-flex-pack: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto 4em auto;
+}
+
+/* Flex */
+/* Flex */
+.flex {
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-pack: justify;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.flex.flex-2 {
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.flex.flex-2 article {
+	color: var(--main-bg-colour);
+	width: 30%;
+	margin-top: 3em;
+}
+.flex.flex-2 h3 {
+	color: var(--accent-colour);
+	width: inherit;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.flex.flex-2 a {
+	color: var(--accent-colour);
+}
+
+@media screen and (max-width: 980px) {
+	.flex.flex-2 article {
+		width: 100%;
+		margin-bottom: 3em;
+	}
+	.flex.flex-2 article:last-child {
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.flex.flex-2 br {
+		display: none;
+	}
+}
+
+/* Form */
+form {
+	margin: 0 0 2em 0;
+	width: 60%;
+	margin-left: 20%;
+}
+
+form .field {
+	margin-bottom: 1.5em;
+}
+
+form .field.half {
+	display: inline-block;
+	width: 45%;
+}
+
+form .field.half.first {
+	margin-right: 4%;
+}
+
+@media screen and (max-width: 980px) {
+	form .field.half {
+		display: block;
+		width: 100%;
+    }
+	form .field.half.first {
+		margin-right: 0;
+	}
+}
+
+label {
+	color: var(--main-bg-colour);
+	display: block;
+	font-size: 0.9em;
+	font-weight: 600;
+	margin: 0 0 1em 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	background: var(--main-bg-colour);
+	border: solid 2px var(--accent-colour);
+	color: var(--white-text-colour);
+	display: block;
+	outline: 0;
+	padding: 0 1em;
+	text-decoration: none;
+	width: 100%;
+}
+
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+input[type="tel"]:invalid,
+select:invalid,
+textarea:invalid {
+	box-shadow: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+	border-color: #a93800;
+	box-shadow: 0 0 0 1px #a93800;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+	height: 2em;
+}
+
+textarea {
+	padding: 0.5em 1em;
+	resize: none;
+}
+
+
+#contact {
+	padding: 0.5em 0;
+	color: var(--main-bg-colour);
+	text-align: center;
+}
+
+#contact h3 {
+	margin-bottom: 0.5em !important;
+}
+
+#contact label {
+	text-align: left;
+}
+
+
+/* Timeline */
+#timeline {
+  left: 0;
+  top: 40px;
+  width: auto;
+  height: 9em;
+	padding: 0.3em 0;
+  text-align: left;
+}
+
+#timeline .roles {
+  position: relative;
+  display: block;
+	height: 115px;
+  width: auto;
+  top: 30px;
+	background: var(--main-bg-colour);
+	border-top: 3px solid var(--accent-colour);
+}
+
+#timeline li {
+	position: relative;
+	display: inline-block;
+  float: center;
+	width: 30%;
+  top: 10px;
+  left: 12%;
+	color: var(--light-text-colour);
+}
+
+#timeline ol .section {
+  position: absolute;
+  top: -60px;
+	left: 10%;
+  font-size: 20px;
+  font-weight: 900;
+	color: var(--main-bg-colour);
+}
+
+#timeline li .description {
+  color: var(--white-text-colour);
+  margin: 7px;
+}
+
+#timeline li .point {
+  top: -19px;
+  left: 30px;
+	width: 8px;
+	height: 8px;
+	border: 4px solid var(--accent-colour);
+	border-radius: 10px;
+	background: var(--white-text-colour);
+  position: absolute;
+}
+
+#timeline .timeline .date{
+  font-family: 'Arial';
+	font-size: 14px;
+	font-weight: 300;
+  margin: 7px;
+}
+
+@media screen and (max-width: 1440px) {
+	#timeline .roles{
+		height: 105px;
+    }
+}
+@media screen and (max-width: 800px) {
+	#timeline {
+
+    }
+}
+
+/* Image */
+.image {
+	border-radius: 0;
+	border: 0;
+	position: relative;
+}
+
+.image img {
+	border-radius: 0;
+	width: 100%;
+	height: 10em;
+	border: 2px solid var(--main-bg-colour);
+	object-fit: cover;
+}
+
+.image.round img {
+	border-radius: 5%;
+}
