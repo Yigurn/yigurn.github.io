@@ -1,0 +1,23 @@
+<section id="topics" class="wrapper align-center">
+	<div class="inner">
+		<h1>Here is a look at what I have been working on</h1>
+		<div class="flex flex-2">
+			{% for post in site.posts limit: 3 %}
+			<a href="{{ post.url }}" class="block">
+				<article>
+					<header>
+						<h2>{{ post.title }}</h2>
+					</header>
+					<div class="image">
+						{% if post.image %}
+				  		<img src="{{ post.image }}" alt="{{ post.title }}">
+						{% endif %}
+					</div>
+	        <p class="date">Posted on {{ post.date | date: "%B %d, %Y" }}</p>
+					<p>{{ post.subtitle }}</p>
+				</article>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+</section>
