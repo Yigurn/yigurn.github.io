@@ -2,11 +2,11 @@
 layout: post
 title: "Finally Built!"
 date: 2020-04-26
-categories: ['Vinolent Guitar']
+categories: ['Tinker', 'Music']
 tags: guitar music vinolent
 image: /images/posts/2020-04-26/final.jpg
 lead-text: "Putting the final pieces in place"
-subtitle: Vinolent guitar final build progress
+subtitle: Putting the final pieces in place
 ---
 <p>After a few day of sanding the guitar, rounding the corners and filling in small holes it was in a stage where I was ready to paint it. A few coats later, the seems in the wood started to show through, which was a little worrying, but I persevered. I began the black outline, trying to get a slight fade effect around the edge.</p>
 

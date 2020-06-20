@@ -2,7 +2,7 @@
 layout: post
 title: "New Project - Vinolent Guitar"
 date: 2020-03-08
-categories: ['Vinolent Guitar']
+categories: ['Tinker', 'Music']
 tags: guitar music vinolent
 image: "/images/vinolent-face.jpg"
 lead-text: "Guitar build based on the Vinolent logo above"

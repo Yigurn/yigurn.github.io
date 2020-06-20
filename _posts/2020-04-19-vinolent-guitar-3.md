@@ -2,11 +2,11 @@
 layout: post
 title: "Fretting about Wires"
 date: 2020-04-19
-categories: ['Vinolent Guitar']
+categories: ['Tinker', 'Music']
 tags: guitar music vinolent
 image: /images/posts/2020-04-19/strung-up.jpg
 lead-text: "Wiring up the guitar and spotting a big mistake"
-subtitle: Vinolent guitar final build progress
+subtitle: Wiring up the guitar and spotting a big mistake
 ---
 <p>After drilling the holes for the wire paths, I needed to route out space for the socket. This had to be done precisely, otherwise I could carve too far into the guitar and hit the bridge screws.</p>
 

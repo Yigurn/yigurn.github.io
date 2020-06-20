@@ -2,7 +2,7 @@
 layout: post
 title: "Picking Up Again"
 date: 2020-04-05
-categories: ['Vinolent Guitar']
+categories: ['Tinker', 'Music']
 tags: guitar music vinolent
 image: http://placehold.it/900x300
 lead-text: "Carving out pickup cavities."
