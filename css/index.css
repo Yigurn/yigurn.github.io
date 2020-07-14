@@ -480,3 +480,7 @@ img {
 	float: right;
 	display: inline;
 }
+
+.active {
+	background-color: var(--accent-colour);
+}
