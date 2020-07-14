@@ -47,6 +47,7 @@ h2 {
 hr {
 	border: 1px solid var(--accent-colour);
 }
+
 .date {
 	font-size: 0.8em;
 }
