@@ -50,10 +50,22 @@ hr {
 .date {
 	font-size: 0.8em;
 }
+
 .inner {
 	margin: -2px auto;
 	width: 80%;
 	position: relative;
+}
+.border {
+	width: 80%;
+  border-radius: 25px;
+	border: 2px solid var(--light-text-colour);
+}
+#topics .border article {
+	border-right: 1px solid var(--accent-colour);
+	border-left: 1px solid var(--accent-colour);
+	padding: 0 4em;
+  margin-bottom: 1em;
 }
 
 .block {
