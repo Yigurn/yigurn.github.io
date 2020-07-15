@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 /* Reset */
-a, body, div, h1, h2, h3, h4, h5, h6, header, hr, html, nav, span, strong {
+a, article, body, div, h1, h2, h3, h4, h5, h6, header, hr, html, nav, span, strong {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -29,6 +29,11 @@ a {
 a:hover {
 	color: var(--light-accent-colour);
 	text-decoration: underline;
+}
+article {
+	border: 1px solid var(--accent-colour);
+  border-radius: 25px;
+	padding: 1em 3em;
 }
 body {
 	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -289,8 +294,6 @@ hr {
 /* Form */
 form {
 	margin: 0 0 2em 0;
-	width: 40%;
-	margin-left: 30%;
 }
 
 form .field {
@@ -377,6 +380,10 @@ textarea {
 
 
 #contact {
+	width: 40%;
+	margin: auto;
+	border: 1px solid var(--main-bg-colour);
+  border-radius: 25px;
 	padding: 0.5em 0;
 	color: var(--main-bg-colour);
 	text-align: center;
